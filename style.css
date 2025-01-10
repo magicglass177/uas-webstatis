@@ -1,0 +1,89 @@
+.jumbotron {
+    padding-top: 2rem ;
+    background-color: #ffaf4d;
+}
+
+#projek{
+    background-color: #ffaf4d;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  h1 {
+    animation: fadeIn 2s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  p {
+    animation: fadeIn 2s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .jumbotron img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .jumbotron img:hover {
+    transform: scale(1.1);
+  }
+  
+  .jumbotron svg path {
+    transition: fill 0.3s ease-in-out;
+  }
+  
+  .jumbotron:hover svg path {
+    fill: #0056b3; /* Warna lebih gelap saat hover */
+  }
+
+  #tentang .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #tentang svg path {
+    transition: fill 0.3s ease-in-out;
+  }
+  
+  #tentang:hover svg path {
+    fill: #0056b3; /* Warna gelombang lebih gelap saat hover */
+  }
+
+  #projek .card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #projek .card-footer a:hover {
+    background-color: #0056b3;
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #kontak button:hover {
+    background-color: #0069d9; /* Warna hover */
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
